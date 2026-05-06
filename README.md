@@ -34,6 +34,10 @@ XGBoost
 
 ## Screenshots
 
-- API documentation view: ![Swagger UI](Screenshot 2026-05-06 131113.png)
-- Forecast result chart: ![Forecast chart](Figure_1.png)
+### Swagger UI
+![Swagger UI](swagger_ui.png)
+
+### Forecast Result Chart
+![Forecast Chart](Figure_1.png)
+
 
