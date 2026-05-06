@@ -1,5 +1,7 @@
 # Sales Forecasting System
 
+End-to-end time series forecasting system using ARIMA, Prophet, XGBoost, and LSTM with FastAPI deployment and REST API support.
+
 ## Objective
 Forecast future sales using historical state-wise sales data.
 
@@ -26,6 +28,24 @@ Official dataset provided in the assignment containing:
 - RMSE
 - MAE
 
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run Project
+
+```bash
+python main.py
+```
+
+## Run API
+
+```bash
+uvicorn app:app --reload
+```
+
 ## Deployment
 FastAPI REST API
 
@@ -34,10 +54,8 @@ XGBoost
 
 ## Screenshots
 
-### Swagger UI
+### FastAPI Swagger Documentation
 ![Swagger UI](swagger_ui.png)
 
 ### Forecast Result Chart
 ![Forecast Chart](Figure_1.png)
-
-
